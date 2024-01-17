@@ -3,7 +3,7 @@
   height:100%;
 }
 .from-meta{
-  margin-top: -10px;
+  margin-top: -33px;
   margin-left: 20px;
 }
 .btn {
@@ -29,7 +29,7 @@
   justify-items: center;
   position: fixed;
   width: 100%;
-  bottom: 18px; /* Align the footer at the bottom of the viewport */
+  bottom: 1px; /* Align the footer at the bottom of the viewport */
 }
 
 .btn img {
