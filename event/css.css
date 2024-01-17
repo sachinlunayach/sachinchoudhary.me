@@ -2,6 +2,36 @@
 #root, body, html {
   height:100%;
 }
+.btn {
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  width: 272px;
+  height: 38px;
+  margin-left: 37px;
+}
+
+.forgot{
+  margin-left: 134px;
+  color: blueviolet;
+}
+.footer-line {
+  background-color: hwb(96 95% 3% / 0.8);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 18px; /* Align the footer at the bottom of the viewport */
+}
+
+.btn img {
+  vertical-align: middle; /* Align the image vertically with text */
+  margin-right: 10px; /* Add some spacing between the icon and text */
+}
 
 body {
   overflow-y: scroll;
@@ -107,10 +137,11 @@ body, button, input {
     -moz-box-flex: 1;  
 }
 
+
 .login-box {
   background: #fff;
-  border: 1px solid #e6e6e6;
-  border-radius: 1px;
+  /* border: 1px solid #e6e6e6;
+  border-radius: 1px; */
   margin:0 0 10px;
   padding: 10px 0;
   /* align-items: center; */
@@ -161,7 +192,7 @@ input#name:focus, input#password:focus {
   position: relative;
   margin: 8px 40px;
 }
-.btn {
+#btn {
   cursor: pointer;
   width: 100%;
   padding:0 8px; 
@@ -181,7 +212,7 @@ input#name:focus, input#password:focus {
   font-size:12px;
   margin-top:12px;
   text-align: center;
-  color:#003569;
+  color:#3897f0;
   line-height: 14px!important;
 }
 
@@ -295,7 +326,15 @@ span.language {
   .main {
     background-color: #fff;
   }
-
+  .btn {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 354px;
+    height: 36px;
+    margin-left: 36px;
+  }
   .content {
     max-width: 100%;
     margin-top: 0;
@@ -314,7 +353,7 @@ span.language {
     margin:0 auto;
   }
 
-  .btn {
+  #btn {
     cursor: pointer;
     width: 100%;
     padding:0 8px; 
