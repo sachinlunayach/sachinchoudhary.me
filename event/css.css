@@ -2,6 +2,10 @@
 #root, body, html {
   height:100%;
 }
+.from-meta{
+  margin-top: -10px;
+  margin-left: 20px;
+}
 .btn {
   padding: 5px 20px;
   text-decoration: none;
